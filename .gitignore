@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+/frontend/node_modules
+/frontend/build
+/frontend/deployscript.txt
+/backend/node_modules
+/frontend/.env
+/backend/.env
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+
+.env
