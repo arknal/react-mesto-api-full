@@ -1,0 +1,15 @@
+.menu__profile {
+  text-decoration: none;
+  margin: 0 24px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+@media (max-width: 680px) {
+  .menu__profile {
+    margin: 0 0 18px 0;
+  }
+}

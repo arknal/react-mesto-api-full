@@ -1,0 +1,16 @@
+.menu__logout {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #a9a9a9;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity .2s;
+  height: 22px;
+}
+.menu__logout:hover {
+  opacity: .6;
+}

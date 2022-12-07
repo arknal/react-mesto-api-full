@@ -1,0 +1,6 @@
+.header__burger-menu {
+  display: none;
+  padding: 0;
+  overflow: hidden;
+  max-height: 0;
+}

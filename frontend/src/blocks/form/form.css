@@ -1,0 +1,11 @@
+.form {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  width: 358px;
+  margin: 0 auto;
+}
+@media (max-width: 580px) {
+  .form {
+    width: 260px;
+  }
+}

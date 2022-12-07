@@ -1,0 +1,21 @@
+.menu__item {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  font-family: "Inter";
+  text-decoration: none;
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #fff;
+  transition: opacity .2s;
+}
+.menu__item:last-of-type{
+  margin-right: 0;
+}
+.menu__item:hover {
+  opacity: .6;
+}

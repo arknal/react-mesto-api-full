@@ -1,0 +1,14 @@
+.profile__avatar-container {
+  box-sizing: border-box;
+  border-radius: 60px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 30px;
+}
+@media (max-width: 680px) {
+  .profile__avatar-container {
+    margin-right: 0px;
+    margin-bottom: 26px;
+  }
+}

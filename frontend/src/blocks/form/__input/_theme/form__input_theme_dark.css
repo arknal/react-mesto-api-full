@@ -1,0 +1,11 @@
+.form__input_theme_dark {
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+  transition: border-bottom 0.4s;
+}
+.form__input_theme_dark:focus {
+  border-bottom: 1px solid #fff;
+}
+.form__input_theme_dark::placeholder {
+  color: #fff;
+}

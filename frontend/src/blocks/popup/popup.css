@@ -1,0 +1,27 @@
+.popup {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .4s, opacity .4s;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.popup::before {
+  cursor: pointer;
+  z-index: -1;
+  content: '';
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

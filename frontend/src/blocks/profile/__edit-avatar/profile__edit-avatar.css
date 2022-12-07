@@ -1,0 +1,35 @@
+.profile__edit-avatar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity .5s;
+  opacity: 0;
+}
+.profile__edit-avatar::before {
+  content: '';
+  background-image: url(../../../images/pen.svg);
+  background-size: 26px 26px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.profile__edit-avatar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  background-color: #000;
+}
+.profile__edit-avatar:hover {
+  opacity: 1;
+}
